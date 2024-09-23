@@ -22,9 +22,9 @@ docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav: 
   - Home: index.md
-  - Visualizations1: visualizations1.md
-  - Visualizations2: visualizations2.md
-  - Visualizations3: visualizations3.md
+  - Visualization1: visualization1.md
+  - Visualization2: visualization2.md
+  - Visualization3: visualization3.md
   - Conclusions: conclusions.md
   # Référencer vos autres pages ci-dessus...
 
