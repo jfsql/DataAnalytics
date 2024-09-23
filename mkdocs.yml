@@ -1,20 +1,20 @@
 # Fichier de configuration du site à personnaliser
 ### Configuration minimale
-site_name: Data Analytics # Nom du site <70 caractères, apparait dans l'onglet du navigateur 
-site_url: https://jfsql.github.io/DataAnalytics/ # Adresse web principale de publication du site, à modifier au format https://votrePseudoGitHub.github.io/votreDepot/
+site_name: Base MkDocs Material # Nom du site <70 caractères, apparait dans l'onglet du navigateur 
+site_url: https://ericecmorlaix.github.io/base_mkdocs_material/ # Adresse web principale de publication du site, à modifier au format https://votrePseudoGitHub.github.io/votreDepot/
 
 ### Configuration du dépôt
 # Ajoute en haut à droite de chaque page du site, icône, nom et lien vers le dépot GitHub du projet.
-repo_url: https://github.com/jfsql/DataAnalytics/
-# repo_name: 'base_mkdocs_material' # Personnalise le nom générique "GitHub" donné par défaut au lien vers le dépot GitHub du projet.
-# edit_uri: edit/main/docs/ # Complément au chemin pour aller depuis `repo_url:` jusqu'au répertoire `docs` ;
+repo_url: https://github.com/ericECmorlaix/base_mkdocs_material
+repo_name: 'base_mkdocs_material' # Personnalise le nom générique "GitHub" donné par défaut au lien vers le dépot GitHub du projet.
+edit_uri: edit/main/docs/ # Complément au chemin pour aller depuis `repo_url:` jusqu'au répertoire `docs` ;
 # Ce qui permet avec MkDocs-Material d'ajouter un bouton (crayon) d'édition du code source.md d'une page du site depuis le navigateur
 # (edit => édition avec connexion | blob, tree => lecture anonyme)
 
 ### Configuration de métadonnées
 # Métadonnées de description <300 caratères, et d'auteur pour toutes les pages du site 
-# site_description: 
-# site_author: 
+site_description: Exemple de site de base pour MkDocs avec le thème Material à personaliser
+site_author: "Eric MADEC"
 
 ### Configuration de la stucture de navigation
 # Dossier source, chemin relatif au fichier mkdocs.yml
@@ -22,10 +22,9 @@ docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav: 
   - Home: index.md
-  - Visualization1: visualization1.md
-  - Visualization2: visualization2.md
-  - Visualization3: visualization3.md
-  - Conclusions: conclusions.md
+  - Débuguer: debug.md
+  - Un exercice: exercice1.md
+  - Quelques erreurs: bugs.md
   # Référencer vos autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
@@ -35,7 +34,7 @@ theme:
     font: false  # RGPD ; pas de fonte Google
     language: fr # français
     icon:
-      #logo: fontawesome/solid/code # image qui apparait dans l'en tête à gauche du titre de la page
+      logo: fontawesome/solid/code # image qui apparait dans l'en tête à gauche du titre de la page
       # et qui est support du lien qui renvoie à la racine du site depuis toutes les pages
       repo: fontawesome/brands/github-alt # modifie l'icône du lien vers le dépot du projet de l'en tête
       edit: material/pencil 
@@ -106,7 +105,7 @@ markdown_extensions: # https://squidfunk.github.io/mkdocs-material/reference/abb
         smart_dollar: false
 
 plugins:
-  # - search # Inclure une barre de recherche
+  - search # Inclure une barre de recherche
   # - mkdocs-jupyter: # Convertir les fichiers .ipynb et .py en pages du site https://github.com/danielfrg/mkdocs-jupyter
   #     kernel_name: python3
   #     execute: False
@@ -114,17 +113,31 @@ plugins:
 
 ### Configuration d'une licence
 # Information de droit d'auteur qui s'affiche dans le pied de page pour toutes les pages du site
-
+copyright: >
+    Document partagé par <a href="https://github.com/ericECmorlaix" target="_blank">Eric MADEC</a>
+    &copy; 2023 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a>
+    <br> Illustrations par <a href="https://undraw.co/" target="_blank">UnDraw</a>
 
 
 ### Configuration de liens sociaux https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links 
+extra:
+  social: # A personaliser...
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:eric.madec@ecmorlaix.fr
+      name: Pour toute question, suggestion ou commentaire, écrire à l'auteur
+    - icon: fontawesome/brands/github
+      link: https://github.com/ericECmorlaix/base_mkdocs_material
+      name: dépôt github
+    - icon: fontawesome/solid/school
+      link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
+      name: Lycée Notre Dame du Mur
 
 # Configuration de javascripts complémentaires
-#extra_javascript:
+extra_javascript:
   - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Configuration de css complémentaires
-#extra_css:
-  #- stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
