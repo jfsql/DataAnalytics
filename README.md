@@ -1,6 +1,6 @@
 # Data Analytics Project
 
-Link to the project: [https://canamericansbuyahouse2021.netlify.app](https://jfsql.github.io/DataAnalytics/)
+Link to the project: [[https://canamericansbuyahouse2021.netlify.app](https://jfsql.github.io/DataAnalytics/)](https://jfsql.github.io/DataAnalytics/)
 
 ## app Folder
 
