@@ -13,8 +13,8 @@ site_url: https://jfsql.github.io/DataAnalytics/ # Adresse web principale de pub
 
 ### Configuration de métadonnées
 # Métadonnées de description <300 caratères, et d'auteur pour toutes les pages du site 
-site_description: Exemple de site de base pour MkDocs avec le thème Material à personaliser
-site_author: "Eric MADEC"
+# site_description: 
+# site_author: 
 
 ### Configuration de la stucture de navigation
 # Dossier source, chemin relatif au fichier mkdocs.yml
