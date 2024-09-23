@@ -22,9 +22,10 @@ docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav: 
   - Home: index.md
-  - Débuguer: debug.md
-  - Un exercice: exercice1.md
-  - Quelques erreurs: bugs.md
+  - Visualizations1: visualizations1.md
+  - Visualizations2: visualizations2.md
+  - Visualizations3: visualizations3.md
+  - Conclusions: conclusions.md
   # Référencer vos autres pages ci-dessus...
 
 # Configuration du thème https://squidfunk.github.io/mkdocs-material/creating-your-site/#configuration
