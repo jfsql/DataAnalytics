@@ -13,8 +13,8 @@ repo_url: https://github.com/jfsql/DataAnalytics/
 
 ### Configuration de métadonnées
 # Métadonnées de description <300 caratères, et d'auteur pour toutes les pages du site 
-site_description: 
-site_author: 
+#site_description: 
+#site_author: 
 
 ### Configuration de la stucture de navigation
 # Dossier source, chemin relatif au fichier mkdocs.yml
@@ -114,24 +114,11 @@ plugins:
 
 ### Configuration d'une licence
 # Information de droit d'auteur qui s'affiche dans le pied de page pour toutes les pages du site
-copyright: >
-    Document partagé par <a href="https://github.com/ericECmorlaix" target="_blank">Eric MADEC</a>
-    &copy; 2023 sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr" target="_blank">CC BY-NC-SA 4.0</a>
-    <br> Illustrations par <a href="https://undraw.co/" target="_blank">UnDraw</a>
+
 
 
 ### Configuration de liens sociaux https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links 
-extra:
-  social: # A personaliser...
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:eric.madec@ecmorlaix.fr
-      name: Pour toute question, suggestion ou commentaire, écrire à l'auteur
-    - icon: fontawesome/brands/github
-      link: https://github.com/ericECmorlaix/base_mkdocs_material
-      name: dépôt github
-    - icon: fontawesome/solid/school
-      link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
-      name: Lycée Notre Dame du Mur
+
 
 # Configuration de javascripts complémentaires
 extra_javascript:
