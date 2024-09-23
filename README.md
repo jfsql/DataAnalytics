@@ -2,8 +2,8 @@
 
 Link to the project: [https://jfsql.github.io/DataAnalytics/](https://jfsql.github.io/DataAnalytics/)
 
+# Main Branch
 ## app Folder
-
 Contains the frontend of the project
 
 ## data Folder
