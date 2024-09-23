@@ -120,10 +120,10 @@ plugins:
 ### Configuration de liens sociaux https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links 
 
 # Configuration de javascripts complémentaires
-extra_javascript:
-  - javascripts/config.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+#extra_javascript:
+  #- javascripts/config.js
+  #- https://polyfill.io/v3/polyfill.min.js?features=es6
+  #- https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Configuration de css complémentaires
 #extra_css:
