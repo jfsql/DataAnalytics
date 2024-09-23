@@ -1,11 +1,12 @@
 # Data Analytics Project
 
-Link to the project: [[https://canamericansbuyahouse2021.netlify.app](https://jfsql.github.io/DataAnalytics/)](https://jfsql.github.io/DataAnalytics/)
+Link to the project: [https://jfsql.github.io/DataAnalytics/](https://jfsql.github.io/DataAnalytics/)
 
 ## app Folder
 
 Contains the frontend of the project
-data Folder
+
+## data Folder
 
 Contains the data used in the project. It is divided in 2 folders: Home_price_mortgages and Wage_salaries.
 
