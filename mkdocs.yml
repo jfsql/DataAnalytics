@@ -121,17 +121,6 @@ copyright: >
 
 
 ### Configuration de liens sociaux https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-footer/#social-links 
-extra:
-  social: # A personaliser...
-    - icon: fontawesome/solid/paper-plane
-      link: mailto:eric.madec@ecmorlaix.fr
-      name: Pour toute question, suggestion ou commentaire, écrire à l'auteur
-    - icon: fontawesome/brands/github
-      link: https://github.com/ericECmorlaix/base_mkdocs_material
-      name: dépôt github
-    - icon: fontawesome/solid/school
-      link: https://www.ecmorlaix.fr/nos-etablissements/lycee-notre-dame-du-mur/
-      name: Lycée Notre Dame du Mur
 
 # Configuration de javascripts complémentaires
 extra_javascript:
@@ -140,5 +129,5 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 # Configuration de css complémentaires
-extra_css:
-  - stylesheets/extra.css
+#extra_css:
+  #- stylesheets/extra.css
