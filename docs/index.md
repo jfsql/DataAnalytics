@@ -6,7 +6,7 @@ Le degré d'urbanisation influe t-il beaucoup sur la qualité de logement en ter
 
 Pour répondre à la question de recherche, nous avons effectué une analyse univariée, nous etudions la variation en % du nombre de pièces par habitant lorsque l'on passe d'une zone de degré 3 à zone de degré pour les pays europpeens.
 
-Premièrement nous avons récupéré l'average number of rooms per person by degree of urbanization from [https://ec.europa.eu/eurostat/en/]([Lien](https://example.com/ "titre de lien optionnel").
+Premièrement nous avons récupéré l'average number of rooms per person by degree of urbanization from [https://ec.europa.eu/eurostat/en/](https://example.com/).
 First, we obtained the wages and salaries (US dollars) and the wage and salary employment (number of jobs) from 2010 to 2019 from the Regional Economic Accounts (CAINC4) of the Bureau of Economic Analysis - U.S Department of Commerce.
 
 Second, we extrapolated wages and salaries (US dollars) and wage and salary employment (number of jobs) with data from 2010 to 2019 using linear regression to obtain the 2021 data of those variables. We divided both results and obtained the annual average salary by county before taxes for 2021.
