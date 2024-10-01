@@ -1,6 +1,6 @@
 ## Research Question
 
-*Le degré d'urbanisation influe t-il beaucoup sur la qualité de logement en terme de pièces par habiatnt?*
+*Le degré d'urbanisation influe t-il beaucoup sur la qualité de logement en terme de pièces par habitant?*
 
 ## Methodology
 
