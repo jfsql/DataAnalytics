@@ -1,6 +1,6 @@
 ## Research Question
 
-*Can an average American buy a house at current prices by counties?*
+*Le degré d'urbanisation influe t-il beaucoup sur la qualité de logement en terme de pièces par habiatnt?*
 
 ## Methodology
 
