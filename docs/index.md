@@ -29,11 +29,14 @@ Finalement, On génère un nouveau jeux de données. Pour chaque pays on recupè
 
 ## Définitions
 
- - zone d'urbanisation de degré 1 :
+ - First-degree urbanization zone refers to highly urbanized areas, typically city centers and large metropolitan zones. These areas are characterized by dense population, intense economic activity, and significant infrastructure development.
+For a first-degree urbanization zone, the population density is generally over 5,000 inhabitants per square kilometer, representing the most urbanized spaces with concentrated residential, commercial, and industrial activities.
    
- - zone d'urbanisation de degré 2 :
+ - Second-degree urbanization zone : refers to areas that are less densely populated than major city centers but still urbanized, such as suburbs or small cities. The population density in these areas is generally lower than in high-density urban centers.
+For a second-degree urbanization zone, the population density is typically between 1,000 and 10,000 inhabitants per square kilometer, depending on the specific region.
    
- - zone d'urbanisation de degré 3 :
+ - Third-degree urbanization zone: refers to areas with lower urban density, often including small towns, peri-urban zones, or semi-rural areas. These zones are less urbanized than city centers and suburban areas, typically serving as transitional spaces between urban and rural areas.
+For a third-degree urbanization zone, the population density is generally between 300 and 1,000 inhabitants per square kilometer, depending on the specific region.:
  
 ## Data
 
