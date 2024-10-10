@@ -4,27 +4,30 @@ Le degré d'urbanisation influe t-il beaucoup sur la qualité de logement en ter
 
 ## Methodology
 
-Pour répondre à la question de recherche, nous avons effectué une analyse univariée, nous etudions la variation en % du nombre de pièces par habitant lorsque l'on passe d'une zone de degré 3 à zone de degré pour les pays europpeens.
+To address the research question, we performed a univariate analysis to study the percentage change in the number of rooms per person when moving from a degree 3 urbanization zone to a degree 1 zone in European countries.
 
-Premièrement nous avons récupéré l'average number of rooms per person by degree of urbanization de 2003 à 2023 from [https://ec.europa.eu/eurostat/en/](https://example.com/).
+First, we retrieved the average number of rooms per person by degree of urbanization from 2003 to 2023 from [https://ec.europa.eu/eurostat/en/](https://example.com/).
 
-Deusièmement, nous avons généré trois fichiers de données à partir du fichier téléchargé. En effet le fichier initial n'était pas directement exploitable car il y avait deux paramètres par ligne : le degré d'urbanisation et le pays. On a donc généré trois jeux de données deg1, deg2, deg3 correspondant à l'average number of rooms per person of urbanization de 2003 à 2023 par pays pour le degré 1, le degré 2 et le degré 3. 
+Second, we generated three data files from the downloaded dataset. The original file was not directly usable because it contained two parameters per row: the degree of urbanization and the country. We therefore generated three datasets, **deg1**, **deg2**, and **deg3**, corresponding to the average number of rooms per person by urbanization degree from 2003 to 2023 for degree 1, degree 2, and degree 3.
 
-Troisièmement, on traite de la même manière les trois jeux de données. On nettoie les jeux de données : suppression des lignes correspondant à un groupe de pays et non à un pays.
-Il y a peu de fluctuation des données en fonction du temps, on calcule donc la moyenne de 2003 à 2023 sur les valeurs existantes.
+Third, we processed the three datasets in the same way. We cleaned the datasets by removing rows corresponding to groups of countries rather than individual countries. Since there was little fluctuation in the data over time, we calculated the average from 2003 to 2023 for the existing values.
 
-Finalement, On génère un nouveau jeux de données. Pour chaque pays on recupère l'average number of rooms per person urbanization pour le degré 1, le degré 2 et le degré 3. On calcul le pourcentage d'évolution de l'average number of rooms per person urbanization lorsque l'on passe d'une zone de degré 3 à une zone de degré 1 c'est à dire d'une zone la moins urbanisée à une zone la plus urbanisée.
+Finally, we generated a new dataset. For each country, we retrieved the average number of rooms per person by urbanization degree for degree 1, degree 2, and degree 3. We then calculated the percentage change in the average number of rooms per person when moving from a degree 3 zone to a degree 1 zone, i.e., from the least urbanized area to the most urbanized area. 
 
 
 ## Visualizations
 
-- average number of rooms per person de 2003 à 2023 pour le degré 1 d'urbanisation par pays
+-Average number of rooms per person from 2003 to 2023 for degree 1 urbanization by country
 
-- average number of rooms per person de 2003 à 2023 pour le degré 2 d'urbanisation par pays
+- Average number of rooms per person from 2003 to 2023 for degree 2 urbanization by country
 
-- average number of rooms per person de 2003 à 2023 pour le degré 3 d'urbanisation par pays
+- Average number of rooms per person from 2003 to 2023 for degree 3 urbanization by country
 
-- pourcentage d'évolution de l'average number of rooms per person urbanization lorsque l'on passe d'une zone de degré 3 à une zone de degré 1 c'est à dire d'une zone la moins urbanisée à une zone la plus urbanisée.
+- Percentage change in the average number of rooms per person when moving from a degree 3 urbanization zone to a degree 1 zone (i.e., from the least urbanized to the most urbanized area)**
+
+---
+
+Let me know if you'd like further clarifications or additional information!
 
 
 ## Définitions
