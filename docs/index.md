@@ -25,9 +25,7 @@ Finally, we generated a new dataset. For each country, we retrieved the average 
 
 - Percentage change in the average number of rooms per person when moving from a degree 3 urbanization zone to a degree 1 zone (i.e., from the least urbanized to the most urbanized area)**
 
----
 
-Let me know if you'd like further clarifications or additional information!
 
 
 ## Définitions
