@@ -45,8 +45,9 @@ For a second-degree urbanization zone, the population density is typically betwe
  - Third-degree urbanization zone: refers to areas with lower urban density, often including small towns, peri-urban zones, or semi-rural areas. These zones are less urbanized than city centers and suburban areas, typically serving as transitional spaces between urban and rural areas.
 For a third-degree urbanization zone, the population density is generally between 300 and 1,000 inhabitants per square kilometer, depending on the specific region.:
 
-##Conclusion
-Key Findings by Region:
+## Conclusion
+
+## Key Findings by Region:
 
 Western and Northern Europe:
 Countries like Sweden, Norway, and the United Kingdom show a significant reduction in the number of rooms per person in highly urbanized areas compared to rural zones. In these regions, urban centers are characterized by compact living spaces due to high demand for housing, limited space, and high property costs.
