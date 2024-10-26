@@ -10,6 +10,8 @@ After splitting the dataset into three by degrees 1, 2, and 3, we fill in the mi
 
 2. The room numbers for degree 2 areas are steadier and the differences between max and min are smaller than the others. For degree 3 areas, the differences are larger, the changes over the years are more than the other urbanization degrees’ rooms.
 
+![](box_plot_of_data_by_year.png)
+
 
 3.	Top countries that have larger value for all degrees of urbanization: Belgium, Cyprus, Ireland, Malta, Netherlands, Norway
 
