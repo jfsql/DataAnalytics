@@ -49,22 +49,29 @@ For a third-degree urbanization zone, the population density is generally betwee
 
 ## Key Findings by Region:
 
-Western and Northern Europe:
+- Western and Northern Europe:
+
 Countries like Sweden, Norway, and the United Kingdom show a significant reduction in the number of rooms per person in highly urbanized areas compared to rural zones. In these regions, urban centers are characterized by compact living spaces due to high demand for housing, limited space, and high property costs.
 These countries often have well-developed rural housing systems, which explains the stark contrast between urban and rural housing densities.
 
-Southern Europe:
+- Southern Europe:
+  
 Spain, Italy, and Greece also demonstrate a considerable decrease in room availability in urban centers, although the contrast is not as pronounced as in Northern Europe. Urban areas in Southern Europe often have historically dense housing, where space per person is traditionally lower due to older, narrower urban layouts.
 However, rural zones in Southern Europe tend to offer more spacious living, possibly due to family-oriented housing in suburban or peri-urban areas, contributing to a relatively large contrast with urban centers.
 Eastern Europe
 
-Poland, Hungary, and Romania present a unique case where the change in rooms per person across urbanization levels is less pronounced. This may be due to post-socialist housing structures that emphasize more uniform housing across regions, with less variation between urban and rural living spaces.
+- Poland, Hungary, and Romania:
+
+They present a unique case where the change in rooms per person across urbanization levels is less pronounced. This may be due to post-socialist housing structures that emphasize more uniform housing across regions, with less variation between urban and rural living spaces.
 In some Eastern European countries, rural areas may also have limited housing quality or infrastructure, which narrows the difference with urban housing density.
 
-Outliers and Anomalies:
+- Outliers and Anomalies:
+
 Poland and Czech Republic show unexpected trends, with minimal reduction or even a slight increase in the number of rooms per person when moving from rural to urban areas. This could be due to unique urban planning policies, lower overall urban density, or the development of larger living spaces in certain urban projects.
 Finland also appears to have a smaller percentage change, potentially due to a more balanced urban-rural housing policy, aiming to maintain similar living standards across both urban and rural zones.
-Implications of the Findings
+
+- Implications of the Findings:
+  
 The findings highlight that, while urbanization often leads to denser living conditions and fewer rooms per person in European urban centers, the extent of this effect varies widely. Factors such as housing policy, urban planning approaches, economic status, and historical development patterns significantly influence housing density.
 
 
