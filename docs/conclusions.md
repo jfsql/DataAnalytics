@@ -1,4 +1,4 @@
-## Conclusion
+
 
 Western and Northern European Countries face challenges in providing adequate space in densely populated urban centers, potentially affecting quality of life. These countries may benefit from policies promoting more spacious, affordable housing options within cities.
 Southern European Countries should address historical limitations in urban housing layouts, potentially by renovating older buildings or developing new residential zones with modern standards.
