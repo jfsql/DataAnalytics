@@ -4,4 +4,7 @@ After splitting the dataset into three by degrees 1, 2, and 3, we fill in the mi
 
 ## Results
 1.	The room values have an increasing trend over the years from 2005 to 2023.
+
+![]("Mean_and_standart_deviation_by_year.png")
+
 2. The room numbers for degree 2 areas are steadier and the differences between max and min are smaller than the others. For degree 3 areas, the differences are larger, the changes over the years are more than the other urbanization degrees’ rooms.
