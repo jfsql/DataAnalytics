@@ -23,7 +23,7 @@ For each country, we computed the percentage change in the average number of roo
 ## Visualizations
 The following visualizations were created to illustrate the results:
 
--Average number of rooms per person from 2003 to 2023 for degree 1 urbanization by country
+- Average number of rooms per person from 2003 to 2023 for degree 1 urbanization by country
 
 - Average number of rooms per person from 2003 to 2023 for degree 2 urbanization by country
 
