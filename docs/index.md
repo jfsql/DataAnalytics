@@ -1,21 +1,27 @@
 ## Research Question
 
-Le degré d'urbanisation influe t-il beaucoup sur la qualité de logement en terme de pièces par habitant?
+Does the degree of urbanization significantly impact housing quality in terms of rooms per inhabitant?
 
 ## Methodology
 
-To address the research question, we performed a univariate analysis to study the percentage change in the number of rooms per person when moving from a degree 3 urbanization zone to a degree 1 zone in European countries.
+To explore this question, a univariate analysis was conducted to examine the percentage change in the average number of rooms per person when moving from areas with the lowest degree of urbanization (Degree 3) to those with the highest degree (Degree 1) in European countries.
 
-First, we retrieved the average number of rooms per person by degree of urbanization from 2003 to 2023 from [https://ec.europa.eu/eurostat/en/](https://example.com/).
+The analysis involved several key steps:
 
-Second, we generated three data files from the downloaded dataset. The original file was not directly usable because it contained two parameters per row: the degree of urbanization and the country. We therefore generated three datasets, **deg1**, **deg2**, and **deg3**, corresponding to the average number of rooms per person by urbanization degree from 2003 to 2023 for degree 1, degree 2, and degree 3.
+Data Collection:
+Data on the average number of rooms per person by degree of urbanization (from 2003 to 2023) was sourced from Eurostat ([ink](https://ec.europa.eu/eurostat/en/](https://example.com/)). This dataset provided information categorized by both country and degree of urbanization.
 
-Third, we processed the three datasets in the same way. We cleaned the datasets by removing rows corresponding to groups of countries rather than individual countries. Since there was little fluctuation in the data over time, we calculated the average from 2003 to 2023 for the existing values.
+Data Preparation:
+Since the original file had multiple parameters per row (both degree of urbanization and country), it was not directly usable. To resolve this, we split the data into three distinct datasets: deg1, deg2, and deg3, corresponding to the average number of rooms per person in areas of urbanization degrees 1, 2, and 3, respectively.
+Data cleaning involved removing rows corresponding to groups of countries (e.g., "EU27" or regional clusters), focusing only on individual countries.
+Given that there were minimal fluctuations in the data over time, we calculated an average value across the period from 2003 to 2023 to represent each country’s housing conditions for each degree of urbanization.
+Calculation of Percentage Change:
+For each country, we computed the percentage change in the average number of rooms per person between Degree 3 and Degree 1 zones. This percentage indicates the difference in housing quality (in terms of room availability) when transitioning from less urbanized areas (Degree 3) to highly urbanized zones (Degree 1).
 
-Finally, we generated a new dataset. For each country, we retrieved the average number of rooms per person by urbanization degree for degree 1, degree 2, and degree 3. We then calculated the percentage change in the average number of rooms per person when moving from a degree 3 zone to a degree 1 zone, i.e., from the least urbanized area to the most urbanized area. 
 
 
 ## Visualizations
+The following visualizations were created to illustrate the results:
 
 -Average number of rooms per person from 2003 to 2023 for degree 1 urbanization by country
 
@@ -38,7 +44,36 @@ For a second-degree urbanization zone, the population density is typically betwe
    
  - Third-degree urbanization zone: refers to areas with lower urban density, often including small towns, peri-urban zones, or semi-rural areas. These zones are less urbanized than city centers and suburban areas, typically serving as transitional spaces between urban and rural areas.
 For a third-degree urbanization zone, the population density is generally between 300 and 1,000 inhabitants per square kilometer, depending on the specific region.:
- 
+
+##Conclusion
+Key Findings by Region:
+
+Western and Northern Europe:
+Countries like Sweden, Norway, and the United Kingdom show a significant reduction in the number of rooms per person in highly urbanized areas compared to rural zones. In these regions, urban centers are characterized by compact living spaces due to high demand for housing, limited space, and high property costs.
+These countries often have well-developed rural housing systems, which explains the stark contrast between urban and rural housing densities.
+
+Southern Europe:
+Spain, Italy, and Greece also demonstrate a considerable decrease in room availability in urban centers, although the contrast is not as pronounced as in Northern Europe. Urban areas in Southern Europe often have historically dense housing, where space per person is traditionally lower due to older, narrower urban layouts.
+However, rural zones in Southern Europe tend to offer more spacious living, possibly due to family-oriented housing in suburban or peri-urban areas, contributing to a relatively large contrast with urban centers.
+Eastern Europe
+
+Poland, Hungary, and Romania present a unique case where the change in rooms per person across urbanization levels is less pronounced. This may be due to post-socialist housing structures that emphasize more uniform housing across regions, with less variation between urban and rural living spaces.
+In some Eastern European countries, rural areas may also have limited housing quality or infrastructure, which narrows the difference with urban housing density.
+
+Outliers and Anomalies:
+Poland and Czech Republic show unexpected trends, with minimal reduction or even a slight increase in the number of rooms per person when moving from rural to urban areas. This could be due to unique urban planning policies, lower overall urban density, or the development of larger living spaces in certain urban projects.
+Finland also appears to have a smaller percentage change, potentially due to a more balanced urban-rural housing policy, aiming to maintain similar living standards across both urban and rural zones.
+Implications of the Findings
+The findings highlight that, while urbanization often leads to denser living conditions and fewer rooms per person in European urban centers, the extent of this effect varies widely. Factors such as housing policy, urban planning approaches, economic status, and historical development patterns significantly influence housing density.
+
+Western and Northern European Countries face challenges in providing adequate space in densely populated urban centers, potentially affecting quality of life. These countries may benefit from policies promoting more spacious, affordable housing options within cities.
+Southern European Countries should address historical limitations in urban housing layouts, potentially by renovating older buildings or developing new residential zones with modern standards.
+Eastern European Countries could leverage their relatively balanced urban-rural housing conditions to promote regional development, ensuring that both urban and rural areas offer competitive living standards.
+Conclusion
+The degree of urbanization has a clear impact on housing density, with highly urbanized zones typically offering fewer rooms per person. This trend is most pronounced in Western and Northern Europe, where urban centers are densely populated and face space constraints. However, the impact is more muted in Eastern Europe, where historical and policy factors contribute to more consistent housing conditions across regions.
+
+These results underscore the importance of tailored urban planning and housing policies to address regional needs. By promoting balanced development across urban and rural areas, countries can enhance housing quality and equity in living standards, ultimately improving the well-being of their populations.
+
 ## Data
 
 This project uses data from one source:
