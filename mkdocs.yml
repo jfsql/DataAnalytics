@@ -22,6 +22,7 @@ docs_dir: docs
 # Structure du menu principal de navigation, chemins relatifs au dossier docs_dir
 nav: 
   - Home: index.md
+  - Linear representation: linearrepresentation.md
   - Visualization1: visualization1.md
   - Visualization2: visualization2.md
   - Visualization3: visualization3.md
