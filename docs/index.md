@@ -81,8 +81,11 @@ The findings highlight that, while urbanization often leads to denser living con
 
 With the ridge model, all three degrees’ datasets fit the best.
 The three test data all have:
+
 - MSE (mean squared error) of around 0.003
+ 
 - R2-value of about 0.98
+  
 - AIC (Akaike Information Criterion) of about -750
 
 The ridge model fits the datasets well and is not overfitting.
