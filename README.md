@@ -5,8 +5,7 @@ Link to the project: [https://jfsql.github.io/DataAnalytics/](https://jfsql.gith
 # Main Branch
 
 ## docs Folder
-Contains the backend of the project, le site web est crée avec MkDocs et le thème Material, les fichiers sont écrits en Markdown.
-
+Contains the backend of the project, le site web est créé avec MkDocs et le thème Material, les fichiers sont écrits en Markdown.
 
 ## data Folder
 
