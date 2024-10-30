@@ -12,11 +12,11 @@ Contains the backend of the project, le site web est crée avec MkDocs et le th�
 
 Contains the data used in the project :
 
-- données sources obtenues auprès [https://ec.europa.eu/eurostat/en/](https://example.com/)
+- Source data obtained from [https://ec.europa.eu/eurostat/en/](https://example.com/)
   
-- données générées pour la visualisation
+- Data generated for visualization
 
-- Le scrypt Python permettant le traitement des données sources 
+- The Python script for processing source data
 
 
 # gh-pages Branch
